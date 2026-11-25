@@ -1,0 +1,28 @@
+Simulated 50 wafers x 408 dies = 20400 dies
+  Pro 8-core    12.0%
+  Plus 8-core   51.3%
+  Base 8-core   21.6%
+  Lite 6-core    8.3%
+  Scrap          6.8%
+
+Top-bin share: centre of wafer 23%, outer edge 3%
+
+Dies fast enough for Pro 8-core: 15.0% of all dies
+  of those, 20% were downgraded because they leak too much
+  correlation between max speed and leakage: 0.91
+
+Revenue per wafer:
+  Only sell Pro 8-core         $   22,104   (-74% vs best single product)
+  Only sell Plus 8-core        $   85,259   (-2% vs best single product)
+  Only sell Base 8-core        $   86,585   (+0% vs best single product)
+  Speed binning (3 tiers)      $  113,148   (+31% vs best single product)
+  Binning + core harvesting    $  119,257   (+38% vs best single product)
+
+Variation sensitivity (x default variation -> uplift of binning+harvesting over best single product):
+  0.50x: single $113,080, binned $132,658, uplift 17%
+  0.75x: single $99,396, binned $125,421, uplift 26%
+  1.00x: single $86,350, binned $116,997, uplift 35%
+  1.25x: single $81,667, binned $105,896, uplift 30%
+  1.50x: single $73,125, binned $92,172, uplift 26%
+  1.75x: single $62,850, binned $77,748, uplift 24%
+  2.00x: single $52,983, binned $64,571, uplift 22%
